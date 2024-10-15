@@ -35,6 +35,7 @@ body {
   font-size: 14px;
   background-color: var(--color-background-dark);
   color: var(--color-text);
+  height: 100%; 
 }
 
 html {
@@ -43,10 +44,12 @@ html {
 }
 
 body {
-  height: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-height: 100vh; 
+  width: 100%;
 }
 
 .todo {
